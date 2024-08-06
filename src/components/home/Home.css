@@ -1,0 +1,23 @@
+.homeMain{
+    /* width: 100vw; */
+    display: flex;
+}
+.homeMain .sideBar{
+    width: 13vw;
+    height: 100vh;
+    background: #1d1d1d;
+}
+.homeMain .landingPage{
+    width: 87vw;
+}
+.homeMain .landingPage .head1{
+    width: 100%;
+}
+.homeMain .landingPage .main1{
+    width: 100%;
+    /* background: #3c3c3c; */
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/c_scale,q_auto/hgjbuqpshv7xg1bypizm.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

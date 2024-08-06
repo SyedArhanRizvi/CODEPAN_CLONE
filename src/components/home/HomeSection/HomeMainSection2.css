@@ -1,0 +1,11 @@
+.homeMainSection2{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.homeMainSection2 .c1 div img{
+    height: 4em;
+    width: 4em;
+}

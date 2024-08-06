@@ -1,0 +1,45 @@
+nav{
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav .SearchField input{
+    width: 15em;
+    height: 2.2em;
+    padding-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background: #1d1d1d;
+    border: none;
+}
+nav .logInBtns{
+    display: flex;
+    gap: 10px;
+}
+nav .logInBtns button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+nav .logInBtns .b1{
+    background: rgb(13, 188, 77);
+    transition: 0.5s;
+}
+nav .logInBtns .b1:hover{
+    background: rgb(3, 132, 50);
+}
+nav .logInBtns .b2{
+    background: rgb(49, 49, 49);
+    color: white;
+    transition: 0.5s;
+}
+nav .logInBtns .b2:hover{
+    background: rgb(42, 39, 39);
+}
