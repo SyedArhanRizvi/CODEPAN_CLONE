@@ -4,7 +4,7 @@
 }
 .homeMain .sideBar{
     width: 13vw;
-    height: 100vh;
+    /* height: 100vh; */
     background: #1d1d1d;
 }
 .homeMain .landingPage{

@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    background: #262525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.codeLogo {
+    display: flex;
+    gap: 5px;
+}
+.codeLogo div img{
+    height: 2em;
+    width: 2em;
+}
+.codeLogo div h1{
+    font-size: 1.5em;
+}
+.codeLogo div p{
+    font-size: 1em;
+    color: gray;
+}
+nav .div1 {
+    display: flex;
+    gap: 10px;
+}
+nav .div1 button{
+    padding: 1px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    /* font-size: 1.3em; */
+    font-weight: bold;
+}
+nav .div1 .codeBtn{
+    background: rgb(12, 108, 76);
+    color: white;
+}

@@ -39,7 +39,10 @@
     font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
-    border: ;
+}
+.sideSection .Links .mainBtn button a{
+    text-decoration: none;
+    color: black;
 }
 .sideSection .Links .div1 span{
     display: inline-block;

@@ -8,7 +8,7 @@ function SideBar() {
 
         <div className="logo"><img src="https://cdn.freebiesupply.com/logos/large/2x/codepen-logo-png-transparent.png" alt="" /></div>
         <div className="logo2"><h6>TRY OUR ONLINE EDITOR</h6></div>
-        <div className="mainBtn"><button><a href="">Start Coding</a></button></div>
+        <div className="mainBtn"><button><Link to="codearea">Start Coding</Link></button></div>
 
         <div className="div1"><h3>Search Pens</h3></div>
         <div className="div1"><h3>Challenges</h3></div>

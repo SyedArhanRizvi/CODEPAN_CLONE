@@ -1,14 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './components/home/Home'
-import {createBrowserRouter, Router, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import CodeArea from './components/CodeArea/CodeArea'
 function App() {
   
 
   return (
     <>
-
-     <Home></Home>
+      <BrowserRouter>
+        <Routes>  
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/codearea' element={<CodeArea/>}></Route>
+        </Routes>
+     </BrowserRouter>
     </>
   )
 }

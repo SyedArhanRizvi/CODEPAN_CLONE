@@ -1,0 +1,14 @@
+.main2{
+    width: 100vw;
+}
+.main2 .header2{
+    width: 100%;
+
+}
+.main2 .codeWriting{
+    width: 100vw;
+    height: 90vh;
+    background: #262525;
+    display: flex;
+    justify-content: space-evenly;
+}
