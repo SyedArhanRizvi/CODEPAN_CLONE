@@ -7,8 +7,12 @@
 }
 .main2 .codeWriting{
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     background: #262525;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.main2 .outputCode{
+    width: 100vw;
 }

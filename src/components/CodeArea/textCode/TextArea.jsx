@@ -1,32 +1,34 @@
-import React from 'react'
-import "./TextArea.css"
+import React from 'react';
+import './TextArea.css';
 import { Controlled as ControlledEditor } from 'react-codemirror2';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/xml/xml';
 import 'codemirror/mode/javascript/javascript';
-function TextArea() {
+
+function TextArea({ value, onChange }) {
+  
+  const handleChange = (editor, data, value) => {
+    onChange(value);
+  };
+
   return (
     <div className='parentText'>
-       <div className="textAreaNav">
-        
-       </div>
+      <div className="textAreaNav">
+        {/* Navigation or additional elements can go here */}
+      </div>
       
-       <ControlledEditor style={{height:"100% !important"}}
-                // onBeforeChange={handleChange}
-                // value={value}
-                className="controlled-editor"
-                options={{
-                    lineWrapping: true,
-                    lint: true,
-                    // mode: language,
-                    lineNumbers: true,
-                    theme: 'material'
-                }}
-            />
-    
+      <ControlledEditor
+        onBeforeChange={handleChange}
+        value={value}
+        className="controlled-editor"
+        options={{
+          lineNumbers: true,
+          theme: 'material'
+        }}
+      />
     </div>
-  )
+  );
 }
 
-export default TextArea
+export default TextArea;

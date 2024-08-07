@@ -1,8 +1,9 @@
 .parentText {
     width: 30%;
-    height: 70%;
+    height: 100%;
     /* overflow: hidden; */
-    background: white;
+    /* background: rgb(234, 15, 15); */
+    overflow: hidden;
 }
 .controlled-editor{
     height: 100%;
@@ -19,7 +20,8 @@
     position: relative;
     background: #000;
 } */
- .controlled-editor{
+ .CodeMirror-wrap{
     height: 100% !important;
-    width: 100%;
+    width: 100% !important;
+    background: #5bafd3;
 }

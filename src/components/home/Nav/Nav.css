@@ -6,10 +6,10 @@ nav{
     padding: 20px;
 }
 nav .SearchField input{
-    width: 15em;
-    height: 2.2em;
+    width: 17em;
+    height: 2.6em;
     padding-left: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     color: white;
     border-radius: 5px;

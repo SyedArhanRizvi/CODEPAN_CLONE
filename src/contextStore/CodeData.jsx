@@ -1,33 +1,15 @@
-import {createContext, useState } from "react";
+import { createContext, useState } from "react";
 
 export const CodeData = createContext();
 
-
-export const DataProvider = ({children})=> {
-     const [html, setHtml] = useState('');
-     const [css, setCss] = useState('');
-     const [js, setJs] = useState('');
+export const DataProvider = ({ children }) => {
+    const [html, setHtml] = useState('');
+    const [css, setCss] = useState('');
+    const [js, setJs] = useState('');
      
     return (
-        
-        <CodeData.Provider value={{html, css, js, setCss, setHtml, setJs}}> 
+        <CodeData.Provider value={{ html, css, js, setCss, setHtml, setJs }}> 
             {children}
-            </CodeData.Provider>
-    )
-        
-}
-// import { createContext, useState } from "react";
-
-// export const CodeData = createContext();
-
-// export const DataProvider = ({ children }) => {
-//     const [html, setHtml] = useState('');
-//     const [css, setCss] = useState('');
-//     const [js, setJs] = useState('');
-
-//     return (
-//         <CodeData.Provider value={{ html, css, js, setCss, setHtml, setJs }}>
-//             {children}
-//         </CodeData.Provider>
-//     );
-// };
+        </CodeData.Provider>
+    );
+};
