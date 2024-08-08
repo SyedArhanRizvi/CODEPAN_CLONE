@@ -8,6 +8,7 @@
     color: white;
     align-items: center;
     padding-top: 20px;
+    position: relative;
 }
 .sideSection .Links {
     width: 100%;
@@ -52,6 +53,13 @@
     border-radius: 5px;
     padding: 2px 4px;
     font-size: 0.8em;
+}
+.sideSection .Links .sideDivBtn{
+    font-size: 1.9em;
+    color: #6c6464;
+    position: absolute;
+    right: -150px;
+    top: 60px;
 }
 .sideSection .addvertisement .img img{
     width: 10em;

@@ -6,9 +6,11 @@ export const DataProvider = ({ children }) => {
     const [html, setHtml] = useState('');
     const [css, setCss] = useState('');
     const [js, setJs] = useState('');
+    const [width, setWidth] = useState(false);
+    const [opcacity, setOpcacity] = useState(false);
      
     return (
-        <CodeData.Provider value={{ html, css, js, setCss, setHtml, setJs }}> 
+        <CodeData.Provider value={{opcacity, setOpcacity,width, setWidth ,html, css, js, setCss, setHtml, setJs }}> 
             {children}
         </CodeData.Provider>
     );

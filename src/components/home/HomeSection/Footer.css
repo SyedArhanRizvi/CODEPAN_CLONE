@@ -1,0 +1,48 @@
+.footer{
+    width: 100vw;
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+}
+.flinks{
+    width: 45%;
+    display: flex;
+    gap: 30px;
+    /* padding: 4px; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: c; */
+}
+.flinks div{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+.flinks div p a{
+    text-decoration: none;
+    color: white;
+}
+.flinks div h3 a{
+    text-decoration: none;
+    color: white;
+}
+.ldiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 7px;
+    /* align-items: end;
+    padding-right: ; */
+}
+.ldiv img{
+    width: 8em;
+    height: 2em;
+}
+.ldiv p a {
+    text-decoration: none;
+    color: rgb(130, 120, 120);
+}

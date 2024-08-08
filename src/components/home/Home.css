@@ -21,3 +21,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.homeMain .landingPage .main1 .main2{
+    width: 100%;
+    display: flex;
+}

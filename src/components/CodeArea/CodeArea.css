@@ -8,10 +8,11 @@
 .main2 .codeWriting{
     width: 100vw;
     height: 60vh;
-    background: #262525;
+    background: #040404;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 .main2 .outputCode{
     width: 100vw;

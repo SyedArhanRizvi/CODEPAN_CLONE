@@ -1,10 +1,11 @@
 nav{
     width: 100%;
-    background: #262525;
+    background: #181818;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    cursor: pointer;
 }
 .codeLogo {
     display: flex;
@@ -16,6 +17,8 @@ nav{
 }
 .codeLogo div h1{
     font-size: 1.5em;
+    display: inline-block;
+    margin-right: 10px;
 }
 .codeLogo div p{
     font-size: 1em;
