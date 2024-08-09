@@ -1,16 +1,11 @@
 import React from 'react'
 import "./SideBar.css"
 import {Link} from "react-router-dom"
-import { RiSidebarFoldFill } from "react-icons/ri";
-import { CodeData } from '../../../contextStore/CodeData';
-import { useContext } from 'react';
-
+// import { RiSidebarFoldFill } from "react-icons/ri";
+ import axios from 'axios';
 function SideBar() {
-  const {width, setWidth,opcacity, setOpcacity} = useContext(CodeData);
-  const widthHandler = (prev)=>{
-    setWidth((prev)=>!prev);
     
-  }
+
   return (
     <div className='sideSection'>
       <div className="Links">
@@ -23,11 +18,11 @@ function SideBar() {
         <div className="div1"><h3>Challenges</h3></div>
         <div className="div1"><h3>Spark</h3></div>
         <div className="div1"><h3>Code Pan</h3><span>Pro</span></div>
-        <div className="sideDivBtn"><RiSidebarFoldFill style={{cursor:'pointer'}} onClick={widthHandler}/></div>
+        {/* <div className="sideDivBtn"><RiSidebarFoldFill style={{cursor:'pointer'}}/></div> */}
       </div>
-      <div className="addvertisement">
+      {/* <div className="addvertisement">
         <div className="img"><img src="" alt="" /></div>
-      </div>
+      </div> */}
     </div>
   )
 }
