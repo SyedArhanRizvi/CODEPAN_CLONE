@@ -13,7 +13,7 @@ function Result() {
     `
   return (
     <>
-      <iframe srcDoc={srcCode} frameborder="0" title='Output' sandbox='allow-scripts'></iframe>
+      <iframe srcDoc={srcCode} frameborder="0" title='Output' sandbox='allow-scripts'> </iframe>
     </>
   )
 }

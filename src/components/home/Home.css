@@ -24,4 +24,5 @@
 .homeMain .landingPage .main1 .main2{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
